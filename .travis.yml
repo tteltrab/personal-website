@@ -6,6 +6,10 @@ cache:
   directories:
     - node_modules
 
+branches:
+  only:
+    - master
+
 deploy:
   edge: true
   skip_cleanup: true
