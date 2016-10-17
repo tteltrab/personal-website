@@ -1,0 +1,9 @@
+@import 'toolkit/reset';
+
+$main-text: rgba(57, 62, 65, 1);
+$main-bg: rgba(231, 229, 223, 1);
+
+body {
+  background: $main-bg;
+  color: $main-text;
+}

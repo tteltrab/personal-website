@@ -1,0 +1,41 @@
+{
+  "name": "personal-site",
+  "version": "1.0.0",
+  "description": "Nicholas Bartlett's Personal Site",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "pretest": "gulp eslint",
+    "test": "gulp test",
+    "gulp": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tteltrab/personal-site.git"
+  },
+  "author": "Nicholas Bartlett",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "express": "^4.13.3"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.8.2",
+    "eslint-config-punchcard": "^1.0.1",
+    "eyeglass": "^1.1.0",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-eslint": "^3.0.0",
+    "gulp-if": "^2.0.1",
+    "gulp-imagemin": "^3.0.3",
+    "gulp-nodemon": "^2.0.3",
+    "gulp-sass": "^2.0.4",
+    "gulp-sass-lint": "^1.1.1",
+    "gulp-sourcemaps": "^2.1.1",
+    "gulp-uglify": "^2.0.0",
+    "sass-toolkit": "^2.10.0"
+  },
+  "engines": {
+    "node": "^6.8",
+    "npm": "^3.9"
+  }
+}
