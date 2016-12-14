@@ -46,8 +46,6 @@ The following folders contain generated content and _will not_ be included in th
 The following files are configuration files to configure different parts of the toolchain:
 
 * `gulpfile.js` - [Gulp](http://gulpjs.com/) configuration file
-* `manifest.yml` - [Bluemix Application](https://docs.cloudfoundry.org/devguide/deploy-apps/manifest.html) configuration file
-* `.cfignore` - [Bluemix Application](https://docs.cloudfoundry.org/devguide/deploy-apps/prepare-to-deploy.html) deployment ignore file
 * `.nvmrc` - [NVM](https://github.com/creationix/nvm) version configuration
 * `.editorconfig` - [EditorConfig](http://editorconfig.org/) configuration
 * `.eslintrc.yml` - [ESLint](http://eslint.org/) lint rule configuration
